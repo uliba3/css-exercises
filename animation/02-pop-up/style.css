@@ -55,6 +55,18 @@ button {
 .popup-modal.show {
   opacity: 100%;
   pointer-events: all;
+  animation: 1s popup;
+}
+
+@keyframes popup {
+  from{
+    opacity: 0%;
+    top: 40%;
+  }
+  to{
+    opacity: 100%;
+    top: 50%;
+  }
 }
 
 .backdrop.show {
